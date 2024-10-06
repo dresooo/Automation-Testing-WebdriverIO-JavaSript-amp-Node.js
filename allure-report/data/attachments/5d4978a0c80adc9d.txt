@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "./option[normalize-space(@value) = \"python\"]|./optgroup/option[normalize-space(@value) = \"python\"]"
+}

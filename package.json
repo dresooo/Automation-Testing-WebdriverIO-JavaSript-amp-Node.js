@@ -1,0 +1,27 @@
+{
+  "name": "webdriverio-framework",
+  "version": "1.0.0",
+  "description": "webdriverio automation framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.js",
+    "automation-test-store-tests": "npx wdio --spex test/specs/automations-test-store/*.spec.js",
+    "webdriver-university-tests": "npx wdio --spex test/specs/webdriver-university/*.spec.js",
+    "smoke-suite": "npx wdio --suite smoke"
+  },
+  "author": "Andres Malvin Jiu",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^9.1.2",
+    "@wdio/cli": "^9.1.2",
+    "@wdio/local-runner": "^9.1.2",
+    "@wdio/mocha-framework": "^9.1.2",
+    "@wdio/selenium-standalone-service": "^8.14.0",
+    "@wdio/spec-reporter": "^9.1.2",
+    "@wdio/visual-service": "^6.0.0"
+  },
+  "dependencies": {
+    "allure-commandline": "^2.30.0"
+  }
+}

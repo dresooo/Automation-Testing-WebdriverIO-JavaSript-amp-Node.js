@@ -1,0 +1,49 @@
+{
+  "id": {
+    "sessionId": "4d2b6bc248e6ce48285d140785ef79b9",
+    "elementId": "f.7796E6BD1B4C8A57909D25BE857BFD20.d.B5819C65B493071E5D3D7A1BA61DE29E.e.85",
+    "element-6066-11e4-a52e-4f735466cecf": "f.7796E6BD1B4C8A57909D25BE857BFD20.d.B5819C65B493071E5D3D7A1BA61DE29E.e.85",
+    "locator": {
+      "type": "css",
+      "value": "#frame"
+    },
+    "selector": "#frame",
+    "parent": {
+      "sessionId": "4d2b6bc248e6ce48285d140785ef79b9",
+      "capabilities": {
+        "acceptInsecureCerts": false,
+        "browserName": "chrome",
+        "browserVersion": "129.0.6668.89",
+        "chrome": {
+          "chromedriverVersion": "129.0.6668.89 (951c0b97221f8d4ba37cf97d324505c832251cf9-refs/branch-heads/6668@{#1503})",
+          "userDataDir": "C:\\Users\\andre\\AppData\\Local\\Temp\\scoped_dir20828_1951832341"
+        },
+        "fedcm:accounts": true,
+        "goog:chromeOptions": {
+          "debuggerAddress": "localhost:50429"
+        },
+        "networkConnectionEnabled": false,
+        "pageLoadStrategy": "normal",
+        "platformName": "windows",
+        "proxy": {},
+        "setWindowRect": true,
+        "strictFileInteractability": false,
+        "timeouts": {
+          "implicit": 0,
+          "pageLoad": 300000,
+          "script": 30000
+        },
+        "unhandledPromptBehavior": "dismiss and notify",
+        "webSocketUrl": "ws://localhost:50402/session/4d2b6bc248e6ce48285d140785ef79b9",
+        "webauthn:extension:credBlob": true,
+        "webauthn:extension:largeBlob": true,
+        "webauthn:extension:minPinLength": true,
+        "webauthn:extension:prf": true,
+        "webauthn:virtualAuthenticators": true,
+        "wdio:driverPID": 20828
+      }
+    },
+    "isReactElement": false,
+    "isShadowElement": false
+  }
+}
